@@ -1,5 +1,5 @@
 let listaNumSort = [];
-let numFinal = 100;
+let numFinal = parseInt (Math.random () * 5000 + 1);
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
